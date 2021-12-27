@@ -1,0 +1,115 @@
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\juventudeSoft.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.AlterarUsuario.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Alterar_Membro.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Cadastro_user.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Membros.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Menu.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\juventudeSoft.csproj.GenerateResource.Cache
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Visualizar_membro.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Cotas.resources
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\juventudeSoft.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.AlterarUsuario.resources
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Alterar_Membro.resources
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Cadastro_user.resources
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Cotas.resources
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Membros.resources
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Menu.resources
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Visualizar_membro.resources
+C:\Users\PC\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\juventudeSoft.csproj.GenerateResource.Cache
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Visualiza_Cota.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.frm_actividades.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.VisualizaMembro.resources
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\RdlCompile.cache
+C:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\RdlCompile.compiled
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe.config
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.exe
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.pdb
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\juventudeSoft.csprojResolveAssemblyReference.cache
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.AlterarUsuario.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Alterar_Membro.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Cadastro_user.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Cotas.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.frm_actividades.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Login.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Membros.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Menu.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.VisualizaMembro.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Visualizar_membro.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Visualiza_Cota.resources
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\obj\Debug\juventudeSoft.csproj.GenerateResource.Cache
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.pdb
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\bin\Debug\MySql.Data.dll
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\bin\Debug\MySql.Data.Entity.dll
+E:\Users\PC\Documents\Visual Studio 2012\Projects\JuventudeSoft\JuventudeSoftware\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\juventudeSoft.csprojResolveAssemblyReference.cache
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.AlterarUsuario.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Alterar_Membro.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Cadastro_user.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Cotas.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.frm_actividades.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Membros.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Menu.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.VisualizaMembro.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Visualizar_membro.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Visualiza_Cota.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\juventudeSoft.csproj.GenerateResource.Cache
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.form_sms.resources
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\RdlCompile.cache
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\obj\Debug\RdlCompile.compiled
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\bin\Debug\MySql.Data.dll
+C:\Users\Lucy kiassucumuca\Desktop\JuventudeSoft\JuventudeSoftware\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\bin\Debug\MySql.Data.dll
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\juventudeSoft.csprojResolveAssemblyReference.cache
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.AlterarUsuario.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Alterar_Membro.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Cadastro_user.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Cotas.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.form_sms.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.frm_actividades.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Membros.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Menu.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.VisualizaMembro.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Visualizar_membro.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.Visualiza_Cota.resources
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\juventudeSoft.csproj.GenerateResource.Cache
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\RdlCompile.cache
+C:\Users\Lucy kiassucumuca\Documents\JuventudeSoft\JuventudeSoftware\obj\Debug\RdlCompile.compiled
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\Debug\WindowsFormsApplication1.pdb

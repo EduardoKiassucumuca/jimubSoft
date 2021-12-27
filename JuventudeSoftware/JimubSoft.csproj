@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5544379-EB74-4C19-B072-51B623559075}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>.\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.14.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.4.4\Assemblies\v2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.4.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.4.4\Assemblies\v4.0\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="ProduTivaSMS">
+      <HintPath>..\..\..\Desktop\ProduTivaSMS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlterarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlterarUsuario.Designer.cs">
+      <DependentUpon>AlterarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alterar_Membro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alterar_Membro.Designer.cs">
+      <DependentUpon>Alterar_Membro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro_user.Designer.cs">
+      <DependentUpon>Cadastro_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Patrimonio.cs" />
+    <Compile Include="Classes\RelatorioActividade.cs" />
+    <Compile Include="Classes\RelatorioPatrimonio.cs" />
+    <Compile Include="Classes\SMS.cs" />
+    <Compile Include="Classes\Usuario.cs" />
+    <Compile Include="Classes\Actividade.cs" />
+    <Compile Include="Classes\Campo.cs" />
+    <Compile Include="Classes\ComandosMySql.cs" />
+    <Compile Include="Classes\Cota.cs" />
+    <Compile Include="Classes\dadosEstatisticos.cs" />
+    <Compile Include="Classes\Estatistica.cs" />
+    <Compile Include="Classes\Membro.cs" />
+    <Compile Include="Classes\Validacao.cs" />
+    <Compile Include="Cotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cotas.Designer.cs">
+      <DependentUpon>Cotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_alteraUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_alteraUsuario.Designer.cs">
+      <DependentUpon>form_alteraUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_altera_actividade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_altera_actividade.Designer.cs">
+      <DependentUpon>form_altera_actividade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_altera_patrimonio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_altera_patrimonio.Designer.cs">
+      <DependentUpon>form_altera_patrimonio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_analisaEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_analisaEstado.Designer.cs">
+      <DependentUpon>form_analisaEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_estatistica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_estatistica.Designer.cs">
+      <DependentUpon>form_estatistica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_estatística.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_estatística.Designer.cs">
+      <DependentUpon>form_estatística.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_log.Designer.cs">
+      <DependentUpon>form_log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_patrimonio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_patrimonio.Designer.cs">
+      <DependentUpon>form_patrimonio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_presenca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_presenca.Designer.cs">
+      <DependentUpon>form_presenca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_relatorioMembro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_relatorioMembro.Designer.cs">
+      <DependentUpon>form_relatorioMembro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_relatorio_actividade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_relatorio_actividade.Designer.cs">
+      <DependentUpon>form_relatorio_actividade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_relatorio_patrimonio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_relatorio_patrimonio.Designer.cs">
+      <DependentUpon>form_relatorio_patrimonio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_sms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_sms.Designer.cs">
+      <DependentUpon>form_sms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_titulo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_titulo2.Designer.cs">
+      <DependentUpon>form_titulo2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_tituloEmTabela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_tituloEmTabela.Designer.cs">
+      <DependentUpon>form_tituloEmTabela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_actividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_actividades.Designer.cs">
+      <DependentUpon>frm_actividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionalidades.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_membro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_membro.Designer.cs">
+      <DependentUpon>form_membro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login2.Designer.cs">
+      <DependentUpon>login2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\RelatorioMembro.cs" />
+    <Compile Include="VisualizaMembro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizaMembro.Designer.cs">
+      <DependentUpon>VisualizaMembro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visualizar_membro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualizar_membro.Designer.cs">
+      <DependentUpon>Visualizar_membro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visualiza_Cota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visualiza_Cota.Designer.cs">
+      <DependentUpon>Visualiza_Cota.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AlterarUsuario.resx">
+      <DependentUpon>AlterarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alterar_Membro.resx">
+      <DependentUpon>Alterar_Membro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro_user.resx">
+      <DependentUpon>Cadastro_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cotas.resx">
+      <DependentUpon>Cotas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_alteraUsuario.resx">
+      <DependentUpon>form_alteraUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_altera_actividade.resx">
+      <DependentUpon>form_altera_actividade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_altera_patrimonio.resx">
+      <DependentUpon>form_altera_patrimonio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_analisaEstado.resx">
+      <DependentUpon>form_analisaEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_estatistica.resx">
+      <DependentUpon>form_estatistica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_estatística.resx">
+      <DependentUpon>form_estatística.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_patrimonio.resx">
+      <DependentUpon>form_patrimonio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_presenca.resx">
+      <DependentUpon>form_presenca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_relatorioMembro.resx">
+      <DependentUpon>form_relatorioMembro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_relatorio_actividade.resx">
+      <DependentUpon>form_relatorio_actividade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_relatorio_patrimonio.resx">
+      <DependentUpon>form_relatorio_patrimonio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_sms.resx">
+      <DependentUpon>form_sms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_titulo2.resx">
+      <DependentUpon>form_titulo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_tituloEmTabela.resx">
+      <DependentUpon>form_tituloEmTabela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_actividades.resx">
+      <DependentUpon>frm_actividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_membro.resx">
+      <DependentUpon>form_membro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login2.resx">
+      <DependentUpon>login2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="reportActividade.rdlc" />
+    <EmbeddedResource Include="ReportEstatic.rdlc" />
+    <EmbeddedResource Include="ReportEstatisticaMembros.rdlc" />
+    <EmbeddedResource Include="ReportViewMembro.rdlc" />
+    <EmbeddedResource Include="Report_patrimonio.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizaMembro.resx">
+      <DependentUpon>VisualizaMembro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visualizar_membro.resx">
+      <DependentUpon>Visualizar_membro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visualiza_Cota.resx">
+      <DependentUpon>Visualiza_Cota.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\AlterarUsuario.datasource" />
+    <None Include="Properties\DataSources\Alterar_Membro.datasource" />
+    <None Include="Properties\DataSources\Cadastro_user.datasource" />
+    <None Include="Properties\DataSources\Cotas.datasource" />
+    <None Include="Properties\DataSources\form_alteraUsuario.datasource" />
+    <None Include="Properties\DataSources\form_altera_actividade.datasource" />
+    <None Include="Properties\DataSources\form_altera_patrimonio.datasource" />
+    <None Include="Properties\DataSources\form_analisaEstado.datasource" />
+    <None Include="Properties\DataSources\form_estatistica.datasource" />
+    <None Include="Properties\DataSources\form_estatística.datasource" />
+    <None Include="Properties\DataSources\form_log.datasource" />
+    <None Include="Properties\DataSources\form_patrimonio.datasource" />
+    <None Include="Properties\DataSources\form_presenca.datasource" />
+    <None Include="Properties\DataSources\form_relatorioMembro.datasource" />
+    <None Include="Properties\DataSources\form_relatorio_actividade.datasource" />
+    <None Include="Properties\DataSources\form_relatorio_patrimonio.datasource" />
+    <None Include="Properties\DataSources\form_sms.datasource" />
+    <None Include="Properties\DataSources\form_titulo2.datasource" />
+    <None Include="Properties\DataSources\form_tituloEmTabela.datasource" />
+    <None Include="Properties\DataSources\frm_actividades.datasource" />
+    <None Include="Properties\DataSources\Funcionalidades.datasource" />
+    <None Include="Properties\DataSources\Login.datasource" />
+    <None Include="Properties\DataSources\login2.datasource" />
+    <None Include="Properties\DataSources\Membros.datasource" />
+    <None Include="Properties\DataSources\Menu.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.BaseTableCache.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.CustomInstaller.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlBulkLoader.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlClientFactory.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlCommand.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlCommandBuilder.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlConnection.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlConnectionStringBuilder.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlDataAdapter.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlDataReader.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlError.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlException.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlHelper.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlInfoMessageEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlInfoMessageEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlParameter.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlParameterCollection.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatedEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatedEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatingEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatingEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScript.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScriptErrorEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScriptErrorEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScriptEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlStatementExecutedEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlTrace.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlTransaction.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.SecBuffer.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.SecHandle.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.SecPkgContext_Sizes.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.SECURITY_HANDLE.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.SECURITY_INTEGER.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.Types.MySqlConversionException.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.Types.MySqlDateTime.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.Types.MySqlDecimal.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\RelatorioMembro.datasource" />
+    <None Include="Properties\DataSources\VisualizaMembro.datasource" />
+    <None Include="Properties\DataSources\Visualizar_membro.datasource" />
+    <None Include="Properties\DataSources\Visualiza_Cota.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.Actividade.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.Campo.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.ComandosMySql.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.Cota.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.dadosEstatisticos.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.Estatistica.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.Membro.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.Patrimonio.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.RelatorioActividade.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.RelatorioPatrimonio.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.SMS.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.Usuario.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Classes.Validacao.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Properties.Settings.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male User_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Home_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_User_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Home_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Home_161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_User_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Conference_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actividades.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moedas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinheiro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patrmonio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livros.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cruz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biblia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_User_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Lock_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JIMUB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jesus é o caminho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o-que-e-a-biblia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biblia_sagrada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Multiply_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41869868_1720528698059307_6328282565719359488_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Visualiza_User_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cotas_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Checkmark_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_CheckmarkCarregado_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

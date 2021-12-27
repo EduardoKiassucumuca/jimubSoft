@@ -1,0 +1,2 @@
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\bin\x86\Release\WindowsFormsApplication1.exe.config
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Release\WindowsFormsApplication1.exe

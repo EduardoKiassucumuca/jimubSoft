@@ -1,0 +1,167 @@
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\MySql.Data.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\MySql.Data.Entity.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\ProduTivaSMS.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\stdole.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.AlterarUsuario.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Alterar_Membro.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Cadastro_user.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Cotas.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_alteraUsuario.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_altera_actividade.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_altera_patrimonio.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_analisaEstado.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_estatistica.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_patrimonio.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_presenca.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_relatorioMembro.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_relatorio_actividade.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_relatorio_patrimonio.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_sms.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_titulo2.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_tituloEmTabela.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.frm_actividades.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Membros.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Menu.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.VisualizaMembro.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Visualizar_membro.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Visualiza_Cota.resources
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\JimubSoft.csproj.GenerateResource.Cache
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\RdlCompile.cache
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\bin\x86\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Lucy kiassucumuca\Desktop\JimubSoft\JuventudeSoftware\obj\x86\Debug\JimubSoft.csprojResolveAssemblyReference.cache
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\bin\x86\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\JimubSoft.csprojResolveAssemblyReference.cache
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.AlterarUsuario.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Alterar_Membro.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Cadastro_user.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Cotas.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_alteraUsuario.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_altera_actividade.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_altera_patrimonio.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_analisaEstado.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_estatistica.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_patrimonio.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_presenca.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_relatorioMembro.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_relatorio_actividade.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_relatorio_patrimonio.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_sms.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_titulo2.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_tituloEmTabela.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.frm_actividades.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Membros.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Menu.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.VisualizaMembro.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Visualizar_membro.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Visualiza_Cota.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\JimubSoft.csproj.GenerateResource.Cache
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\RdlCompile.cache
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft\JuventudeSoftware\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\MySql.Data.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\MySql.Data.Entity.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\stdole.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\bin\x86\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\JimubSoft.csprojResolveAssemblyReference.cache
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.AlterarUsuario.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Alterar_Membro.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Cadastro_user.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Cotas.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_alteraUsuario.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_altera_actividade.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_altera_patrimonio.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_analisaEstado.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_estatistica.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_patrimonio.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_presenca.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_relatorioMembro.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_relatorio_actividade.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_relatorio_patrimonio.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_sms.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_titulo2.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.form_tituloEmTabela.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.frm_actividades.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Login.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Membros.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.login2.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Menu.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.VisualizaMembro.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Visualizar_membro.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\WindowsFormsApplication1.Visualiza_Cota.resources
+C:\Users\Lucy kiassucumuca\Documents\JimubSoft - Cópia\JuventudeSoftware\obj\x86\Debug\JimubSoft.csproj.GenerateResource.Cache
