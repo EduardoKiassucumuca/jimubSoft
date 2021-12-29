@@ -43,7 +43,6 @@
             this.comboBoxEstado = new System.Windows.Forms.ComboBox();
             this.richTextBoxObjectivo = new System.Windows.Forms.RichTextBox();
             this.comboBoxComissao = new System.Windows.Forms.ComboBox();
-            this.labelSucesso = new System.Windows.Forms.Label();
             this.textBoxTema = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -74,12 +73,12 @@
             this.button3 = new System.Windows.Forms.Button();
             this.linkUsuario = new System.Windows.Forms.Button();
             this.labelUsuario = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -99,7 +98,6 @@
             this.groupBox1.Controls.Add(this.comboBoxEstado);
             this.groupBox1.Controls.Add(this.richTextBoxObjectivo);
             this.groupBox1.Controls.Add(this.comboBoxComissao);
-            this.groupBox1.Controls.Add(this.labelSucesso);
             this.groupBox1.Controls.Add(this.textBoxTema);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
@@ -206,30 +204,26 @@
             // 
             this.comboBoxComissao.FormattingEnabled = true;
             this.comboBoxComissao.Items.AddRange(new object[] {
+            "Nenhuma",
+            "Executivo",
+            "Corpo-Diretivo",
+            "Director",
+            "Vice-Director",
+            "Tesoureira",
+            "Secretário",
             "Evangelismo",
-            "Comunicação e Informação",
-            "Fraternidade e ecumenismo",
-            "Recreio e desporto",
-            "Serviços Sociais e comunitarios",
+            "C.Informação",
+            "Fraternidade",
+            "Rec.Desporto",
+            "SSC",
             "Cultura"});
             this.comboBoxComissao.Location = new System.Drawing.Point(21, 54);
             this.comboBoxComissao.Margin = new System.Windows.Forms.Padding(4);
             this.comboBoxComissao.Name = "comboBoxComissao";
             this.comboBoxComissao.Size = new System.Drawing.Size(487, 27);
             this.comboBoxComissao.TabIndex = 57;
-            this.comboBoxComissao.Text = "Comissão encarregada da actividade";
+            this.comboBoxComissao.Text = "Quem está encarregada da actividade";
             this.comboBoxComissao.SelectedIndexChanged += new System.EventHandler(this.comboBoxComissao_SelectedIndexChanged);
-            // 
-            // labelSucesso
-            // 
-            this.labelSucesso.AutoSize = true;
-            this.labelSucesso.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSucesso.ForeColor = System.Drawing.Color.Green;
-            this.labelSucesso.Location = new System.Drawing.Point(609, 335);
-            this.labelSucesso.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelSucesso.Name = "labelSucesso";
-            this.labelSucesso.Size = new System.Drawing.Size(0, 19);
-            this.labelSucesso.TabIndex = 55;
             // 
             // textBoxTema
             // 
@@ -348,7 +342,7 @@
             this.labelExito.AutoSize = true;
             this.labelExito.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelExito.ForeColor = System.Drawing.Color.ForestGreen;
-            this.labelExito.Location = new System.Drawing.Point(575, 236);
+            this.labelExito.Location = new System.Drawing.Point(641, 314);
             this.labelExito.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelExito.Name = "labelExito";
             this.labelExito.Size = new System.Drawing.Size(0, 22);
@@ -384,7 +378,7 @@
             // buttonGuardar
             // 
             this.buttonGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonGuardar.BackColor = System.Drawing.Color.SaddleBrown;
+            this.buttonGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonGuardar.ForeColor = System.Drawing.Color.White;
             this.buttonGuardar.Location = new System.Drawing.Point(21, 317);
@@ -450,6 +444,7 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1143, 121);
             this.dataGridView1.TabIndex = 56;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // contextMenuStrip1
             // 
@@ -478,7 +473,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.SaddleBrown;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel2.Controls.Add(this.button10);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.button9);
@@ -489,7 +484,6 @@
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.linkUsuario);
             this.panel2.Controls.Add(this.labelUsuario);
-            this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -500,7 +494,7 @@
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Verdana", 10F);
             this.button10.ForeColor = System.Drawing.Color.White;
@@ -515,7 +509,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Verdana", 10F);
             this.button1.ForeColor = System.Drawing.Color.White;
@@ -530,7 +524,7 @@
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
@@ -545,7 +539,7 @@
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button8.Cursor = System.Windows.Forms.Cursors.No;
             this.button8.Enabled = false;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -561,7 +555,7 @@
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Verdana", 10F);
             this.button7.ForeColor = System.Drawing.Color.White;
@@ -576,7 +570,7 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button6.Cursor = System.Windows.Forms.Cursors.No;
             this.button6.Enabled = false;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -592,7 +586,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Verdana", 10F);
             this.button4.ForeColor = System.Drawing.Color.White;
@@ -607,7 +601,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
@@ -622,7 +616,7 @@
             // 
             // linkUsuario
             // 
-            this.linkUsuario.BackColor = System.Drawing.Color.SaddleBrown;
+            this.linkUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkUsuario.Cursor = System.Windows.Forms.Cursors.Default;
             this.linkUsuario.Enabled = false;
             this.linkUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -650,25 +644,12 @@
             this.labelUsuario.TabIndex = 33;
             this.labelUsuario.Text = "\r\n";
             // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(4, 527);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(126, 20);
-            this.label4.TabIndex = 32;
-            this.label4.Text = "Usuário logado:";
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button2.Location = new System.Drawing.Point(-42, -6);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
@@ -695,7 +676,7 @@
             // button5
             // 
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button5.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
@@ -715,18 +696,24 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Todas",
             "Nenhuma",
+            "Executivo",
+            "Corpo-Diretivo",
+            "Director",
+            "Vice-Director",
+            "Tesoureira",
+            "Secretário",
             "Evangelismo",
-            "Comunicação e Informação",
-            "Fraternidade e ecumenismo",
-            "Recreio e desporto",
-            "Serviços Sociais e comunitarios",
+            "C.Informação",
+            "Fraternidade",
+            "Rec.Desporto",
+            "SSC",
             "Cultura"});
             this.comboBox1.Location = new System.Drawing.Point(304, 369);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(487, 27);
+            this.comboBox1.Size = new System.Drawing.Size(429, 27);
             this.comboBox1.TabIndex = 108;
-            this.comboBox1.Text = "Comissão";
+            this.comboBox1.Text = "Pesquisa por comissão ou Pessoa Encarregue da actividade";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox2
@@ -739,19 +726,45 @@
             "Planificada",
             "Realizada",
             "Não-Realizada"});
-            this.comboBox2.Location = new System.Drawing.Point(808, 372);
+            this.comboBox2.Location = new System.Drawing.Point(1109, 372);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(536, 24);
+            this.comboBox2.Size = new System.Drawing.Size(286, 24);
             this.comboBox2.TabIndex = 109;
             this.comboBox2.Text = "Estado da actividade";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Janeiro",
+            "Fevereiro",
+            "Março",
+            "Abril",
+            "Maio",
+            "Junho",
+            "Julho",
+            "Agosto",
+            "Septembro",
+            "Outubro",
+            "Novembro",
+            "Dezembro"});
+            this.comboBox3.Location = new System.Drawing.Point(775, 369);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(286, 24);
+            this.comboBox3.TabIndex = 110;
+            this.comboBox3.Text = "Pesquisa pelo mês ";
             // 
             // frm_actividades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1441, 577);
+            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button5);
@@ -776,7 +789,6 @@
 
         #endregion
         public System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label labelSucesso;
         private System.Windows.Forms.TextBox textBoxTema;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
@@ -818,7 +830,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button linkUsuario;
         public System.Windows.Forms.Label labelUsuario;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ComboBox comboBox3;
     }
 }

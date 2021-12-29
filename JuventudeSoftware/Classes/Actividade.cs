@@ -35,14 +35,10 @@ namespace WindowsFormsApplication1.Classes
 
             try
             {
-                //buscando...
-               
-                String sqlcomissao = "Select id_comissao From tb_comissao Where comissao ='" + c.getComissaoEncarregue() + "';";
-                this.comandoMysql.executarSqlReaderAlternativoComissao(sqlcomissao);
 
                 //inserindo...
                 int total = c.qtd_homem + c.qtd_mulher;
-                String sqlinseir = "Insert into tb_actividade(id_comissaoR,tema,objectivo,orador,estado,local,data_actividade,hora_actividade,qtd_homem,qtd_mulher,qtd_total)Values('" + this.comandoMysql.idComissao + "','" + c.getTema() + "','" + c.getObjectivo() + "','" + c.getOrador() + "','" + c.getEstadoActividade() + "','" + c.getLocalActividade() + "','" + c.getDatActividade() + "','" + c.gethorActividade() + "','" + c.qtd_homem + "','" + c.qtd_mulher + "','" + total +  "')";
+                String sqlinseir = "Insert into tb_actividade(comissao_encarregue,tema,objectivo,orador,estado,local,data_actividade,hora_actividade)Values('" + c.getComissaoEncarregue() + "','" + c.getTema() + "','" + c.getObjectivo() + "','" + c.getOrador() + "','" + c.getEstadoActividade() + "','" + c.getLocalActividade() + "','" + c.getDatActividade() + "','" + c.gethorActividade() + "')";
                 this.comandoMysql.executarComando(sqlinseir);
                 c.exito = "Registro guardado com sucesso";
             }
@@ -89,7 +85,7 @@ namespace WindowsFormsApplication1.Classes
 
         public DataTable selecionarActividades()
         {
-           String strBusca = "Select id_actividade,tb_comissao.comissao,tema,objectivo,orador,estado,local,DATE_FORMAT(data_actividade,'%y-%m-%d'),hora_actividade,qtd_homem,qtd_mulher,qtd_total from tb_actividade inner join tb_comissao on tb_actividade.id_comissaoR = tb_comissao.id_comissao";
+           String strBusca = "Select id_actividade,comissao_encarregue,tema,objectivo,orador,estado,local,DATE_FORMAT(data_actividade,'%d/%m/%Y'),hora_actividade from tb_actividade";
             return this.comandoMysql.mostrar_tudo(strBusca);
         }
         public DataTable pesquisarComissao(Campo c)
@@ -98,7 +94,7 @@ namespace WindowsFormsApplication1.Classes
                 return this.selecionarActividades();
 
             DataTable tb = new DataTable();
-            string strComissao = "Select id_actividade,tb_comissao.comissao,tema,objectivo,orador,estado,local,DATE_FORMAT(data_actividade,'%y-%m-%d'),hora_actividade,qtd_homem,qtd_mulher,qtd_total from tb_actividade inner join tb_comissao on tb_actividade.id_comissaoR = tb_comissao.id_comissao Where comissao='" + c.getComissaoEncarregue() + "'";
+            string strComissao = "Select id_actividade,comissao_encaregue,tema,objectivo,orador,estado,local,DATE_FORMAT(data_actividade,'%d/%m/%Y'),hora_actividade from tb_actividade where comissao_encarregue ='" + c.getComissaoEncarregue() + "'";
             tb = this.comandoMysql.mostrar_tudo(strComissao);
             return tb;
 
@@ -109,7 +105,7 @@ namespace WindowsFormsApplication1.Classes
                 return this.selecionarActividades();
 
             DataTable tb = new DataTable();
-            string strComissao = "Select id_actividade,tb_comissao.comissao,tema,objectivo,orador,estado,local,DATE_FORMAT(data_actividade,'%y-%m-%d'),hora_actividade,qtd_homem,qtd_mulher,qtd_total from tb_actividade inner join tb_comissao on tb_actividade.id_comissaoR = tb_comissao.id_comissao Where estado ='" + c.getEstadoActividade() + "'";
+            string strComissao = "Select id_actividade,comissao_encarregue,tema,objectivo,orador,estado,local,DATE_FORMAT(data_actividade,'%d/%m/%Y'),hora_actividade from tb_actividade Where estado ='" + c.getEstadoActividade() + "'";
             tb = this.comandoMysql.mostrar_tudo(strComissao);
             return tb;
 

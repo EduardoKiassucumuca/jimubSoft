@@ -60,12 +60,7 @@ namespace WindowsFormsApplication1
             dataGridView1.Columns[7].Width = 180;
             dataGridView1.Columns[8].HeaderText = "Hora da actividade";
             dataGridView1.Columns[8].Width = 130;
-            dataGridView1.Columns[9].HeaderText = "Quantidade de homens";
-            dataGridView1.Columns[9].Width = 170;
-            dataGridView1.Columns[10].HeaderText = "Quantidade de mulheres";
-            dataGridView1.Columns[10].Width = 170;
-            dataGridView1.Columns[11].HeaderText = "Quantidade total";
-            dataGridView1.Columns[11].Width = 130;
+    
         }
 
         private void listarActividades()
@@ -157,7 +152,7 @@ namespace WindowsFormsApplication1
              
            
 
-            foreach(DataGridViewRow linha in dataGridView1.Rows)
+            /*foreach(DataGridViewRow linha in dataGridView1.Rows)
             {
                
                 if(linha.Cells[5].Value.ToString().Equals("Planificada") && ((Convert.ToInt32(linha.Cells[7].Value.ToString().Substring(0,2)) <= Convert.ToInt32(dataFormatada.Substring(2,2))) || (Convert.ToInt32(linha.Cells[7].Value.ToString().Substring(3, 2)) <= Convert.ToInt32(dataFormatada.Substring(5,2))) || (Convert.ToInt32(dataFormatada.Substring(6, 2)) <= Convert.ToInt32(dataFormatada.Substring(8,2)))))
@@ -168,7 +163,7 @@ namespace WindowsFormsApplication1
                   
                     new form_analisaEstado(this.c).ShowDialog();
                 }
-            }
+            }*/
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -267,6 +262,11 @@ namespace WindowsFormsApplication1
         private void button5_Click(object sender, EventArgs e)
         {
             new form_titulo2(this.dataGridView1,actividade,null).Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
