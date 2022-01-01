@@ -63,7 +63,7 @@ namespace WindowsFormsApplication1.Classes
         public int telefone1, idade, telefone2, ano1, mes1, dia1, ano2, mes2, dia2, total_apagar, total_pago, troco;
 
         // Dados das actividades
-        private String comissaoEncarregue, tema, objectivo, orador,estado_actividade,local_actividade, data_actividade, hora;
+        private String comissaoEncarregue, tema, objectivo, orador,estado_actividade,local_actividade, data_actividade, hora, mes_actividade;
         public int hour, minute,qtd_homem,qtd_mulher;
         private int id_actividade;
 
@@ -157,6 +157,16 @@ namespace WindowsFormsApplication1.Classes
         public String gethorActividade()
         {
             return this.hora;
+        }
+
+        public void setMesActividade(String mes_actividade)
+        {
+            this.mes_actividade = mes_actividade;
+        }
+
+        public String getMesActividade()
+        {
+            return this.mes_actividade;
         }
 
 
