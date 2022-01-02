@@ -38,7 +38,7 @@ namespace WindowsFormsApplication1.Classes
 
                 //inserindo...
                 int total = c.qtd_homem + c.qtd_mulher;
-                String sqlinseir = "Insert into tb_actividade(comissao_encarregue,tema,objectivo,orador,estado,local,data_actividade,hora_actividade)Values('" + c.getComissaoEncarregue() + "','" + c.getTema() + "','" + c.getObjectivo() + "','" + c.getOrador() + "','" + c.getEstadoActividade() + "','" + c.getLocalActividade() + "','" + c.getDatActividade() + "','" + c.gethorActividade() + "')";
+                String sqlinseir = "Insert into tb_actividade(comissao_encarregue,tema,objectivo,orador,estado,local,data_actividade,hora_actividade,obs)Values('" + c.getComissaoEncarregue() + "','" + c.getTema() + "','" + c.getObjectivo() + "','" + c.getOrador() + "','" + c.getEstadoActividade() + "','" + c.getLocalActividade() + "','" + c.getDatActividade() + "','" + c.gethorActividade() + "','" + c.getOBSActividade() + "')";
                 this.comandoMysql.executarComando(sqlinseir);
                 c.exito = "Registro guardado com sucesso";
             }
@@ -53,14 +53,11 @@ namespace WindowsFormsApplication1.Classes
 
             try
             {
-                //buscando...
-
-                String sqlcomissao = "Select id_comissao From tb_comissao Where comissao ='" + c.getComissaoEncarregue() + "';";
-                this.comandoMysql.executarSqlReaderAlternativoComissao(sqlcomissao);
+               
 
                 //alterando...
                 int total = c.qtd_homem + c.qtd_mulher;
-                String sqlalterar = "Update tb_actividade Set id_comissaoR='" + this.comandoMysql.idComissao + "',tema='" + c.getTema() + "',objectivo='" + c.getObjectivo() + "',orador='" + c.getOrador() + "',estado='" + c.getEstadoActividade() + "',local='" + c.getLocalActividade() + "',data_actividade='" + c.getDatActividade() + "',hora_actividade='" + c.gethorActividade() + "',qtd_homem='" + c.qtd_homem + "',qtd_mulher='" + c.qtd_mulher + "',qtd_total='" + total + "' Where id_actividade = " + c.getID_actividade() + "";
+                String sqlalterar = "Update tb_actividade Set comissao_encarregue='" + c.getComissaoEncarregue() + "',tema='" + c.getTema() + "',objectivo='" + c.getObjectivo() + "',orador='" + c.getOrador() + "',estado='" + c.getEstadoActividade() + "',local='" + c.getLocalActividade() + "',data_actividade='" + c.getDatActividade() + "',hora_actividade='" + c.gethorActividade() + "',obs='" + c.getOBSActividade() + "' Where id_actividade = " + c.getID_actividade() + "";
                 this.comandoMysql.executarComando(sqlalterar);
                 c.exito = "Registro alterado com sucesso";
             }
@@ -85,7 +82,7 @@ namespace WindowsFormsApplication1.Classes
 
         public DataTable selecionarActividades()
         {
-           String strBusca = "Select id_actividade,comissao_encarregue,tema,objectivo,orador,estado,local,DATE_FORMAT(data_actividade,'%d/%m/%Y'),hora_actividade from tb_actividade";
+            String strBusca = "Select id_actividade,tema,DATE_FORMAT(data_actividade,'%d/%m'),local,orador,objectivo,comissao_encarregue,hora_actividade,estado,obs from tb_actividade";
             return this.comandoMysql.mostrar_tudo(strBusca);
         }
         public DataTable pesquisarComissao(Campo c)
@@ -94,7 +91,7 @@ namespace WindowsFormsApplication1.Classes
                 return this.selecionarActividades();
 
             DataTable tb = new DataTable();
-            string strComissao = "Select id_actividade,comissao_encaregue,tema,objectivo,orador,estado,local,DATE_FORMAT(data_actividade,'%d/%m/%Y'),hora_actividade from tb_actividade where comissao_encarregue ='" + c.getComissaoEncarregue() + "'";
+            string strComissao = "Select id_actividade,tema,DATE_FORMAT(data_actividade,'%d/%m'),local,orador,objectivo,comissao_encarregue,hora_actividade,estado,obs from tb_actividade where comissao_encarregue ='" + c.getComissaoEncarregue() + "'";
             tb = this.comandoMysql.mostrar_tudo(strComissao);
             return tb;
 
@@ -105,8 +102,61 @@ namespace WindowsFormsApplication1.Classes
                 return this.selecionarActividades();
 
             DataTable tb = new DataTable();
-            string strComissao = "Select id_actividade,comissao_encarregue,tema,objectivo,orador,estado,local,DATE_FORMAT(data_actividade,'%d/%m/%Y'),hora_actividade from tb_actividade Where estado ='" + c.getEstadoActividade() + "'";
+            string strComissao = "Select id_actividade,tema,DATE_FORMAT(data_actividade,'%d/%m'),local,orador,objectivo,comissao_encarregue,hora_actividade,estado,obs from tb_actividade Where estado ='" + c.getEstadoActividade() + "'";
             tb = this.comandoMysql.mostrar_tudo(strComissao);
+            return tb;
+
+        }
+        public DataTable pesquisarPorMes(Campo c)
+        {
+            int mes_actividade = 0;
+
+            if (c.getMesActividade().Equals("Todos"))
+                return this.selecionarActividades();
+            switch (c.getMesActividade()){
+                case "Janeiro":
+                    mes_actividade = 01;
+                    break;
+                case "Fevereiro":
+                    mes_actividade = 02;
+                    break;
+                case "Março":
+                    mes_actividade = 03;
+                    break;
+                case "Abril":
+                    mes_actividade = 04;
+                    break;
+                case "Maio":
+                    mes_actividade = 05;
+                    break;
+                case "Junho":
+                    mes_actividade = 06;
+                    break;
+                case "Julho":
+                    mes_actividade = 07;
+                    break;
+                case "Agosto":
+                    mes_actividade = 08;
+                    break;
+                case "Septembro":
+                    mes_actividade = 09;
+                    break;
+                case "Outubro":
+                    mes_actividade = 10;
+                    break;
+                case "Novembro":
+                    mes_actividade = 11;
+                    break;
+                case "Dezembro":
+                    mes_actividade = 12;
+                    break;
+                default:
+                    break;
+            }
+
+            DataTable tb = new DataTable();
+            string str_actividade = "Select id_actividade,tema,DATE_FORMAT(data_actividade,'%d/%m'),local,orador,objectivo,comissao_encarregue,hora_actividade,obs from tb_actividade where DATE_FORMAT(data_actividade,'%m') ='" + mes_actividade.ToString("00") + "'";
+            tb = this.comandoMysql.mostrar_tudo(str_actividade);
             return tb;
 
         }

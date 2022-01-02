@@ -76,29 +76,25 @@ namespace WindowsFormsApplication1
         {
 
             dataGridView1.Columns[0].HeaderText = "#ID";
-            dataGridView1.Columns[0].Width = 150;
-            dataGridView1.Columns[1].HeaderText = "Comissão";
-            dataGridView1.Columns[1].Width = 150;
-            dataGridView1.Columns[2].HeaderText = "Tema";
-            dataGridView1.Columns[2].Width = 300;
-            dataGridView1.Columns[3].HeaderText = "Objectivo";
-            dataGridView1.Columns[3].Width = 400;
-            dataGridView1.Columns[4].HeaderText = "Orador";
+            dataGridView1.Columns[0].Width = 50;
+            dataGridView1.Columns[1].HeaderText = "O QUE";
+            dataGridView1.Columns[1].Width = 300;
+            dataGridView1.Columns[2].HeaderText = "QUANDO";
+            dataGridView1.Columns[2].Width = 70;
+            dataGridView1.Columns[3].HeaderText = "ONDE";
+            dataGridView1.Columns[3].Width = 100;
+            dataGridView1.Columns[4].HeaderText = "ORADOR";
             dataGridView1.Columns[4].Width = 100;
-            dataGridView1.Columns[5].HeaderText = "Estado";
-            dataGridView1.Columns[5].Width = 80;
-            dataGridView1.Columns[6].HeaderText = "Local da actividade";
-            dataGridView1.Columns[6].Width = 200;
-            dataGridView1.Columns[7].HeaderText = "Data da actividade";
-            dataGridView1.Columns[7].Width = 180;
-            dataGridView1.Columns[8].HeaderText = "Hora da actividade";
-            dataGridView1.Columns[8].Width = 130;
-            dataGridView1.Columns[9].HeaderText = "Quantidade de homens";
-            dataGridView1.Columns[9].Width = 170;
-            dataGridView1.Columns[10].HeaderText = "Quantidade de mulheres";
-            dataGridView1.Columns[10].Width = 170;
-            dataGridView1.Columns[11].HeaderText = "Quantidade total";
-            dataGridView1.Columns[11].Width = 130;
+            dataGridView1.Columns[5].HeaderText = "OBJECTIVO";
+            dataGridView1.Columns[5].Width = 400;
+            dataGridView1.Columns[6].HeaderText = "QUEM";
+            dataGridView1.Columns[6].Width = 120;
+            dataGridView1.Columns[7].HeaderText = "HORA";
+            dataGridView1.Columns[7].Width = 70;
+            dataGridView1.Columns[8].HeaderText = "ESTADO";
+            dataGridView1.Columns[8].Width = 120;
+            dataGridView1.Columns[9].HeaderText = "OBSERVAÇÃO";
+            dataGridView1.Columns[9].Width = 220;
         }
 
         private void listarActividades()
@@ -116,20 +112,11 @@ namespace WindowsFormsApplication1
             textBoxOrador.Text = this.c.getOrador();
             textBoxTema.Text = this.c.getTema();
             comboBoxEstado.Text = this.c.getEstadoActividade();
-            textBox1.Text = this.c.qtd_homem.ToString();
-            textBox2.Text = this.c.qtd_mulher.ToString();
-
-            if(comboBoxEstado.Text.Equals("Realizada"))
-            {
-                textBox1.Enabled = true;
-                textBox2.Enabled = true;
-            }
-
             richTextBoxObjectivo.Text = this.c.getObjectivo();
+            richTextBoxObs.Text = this.c.getOBSActividade();
             textBoxLocal.Text = this.c.getLocalActividade();
             dateTimePicker1.Text = this.c.getDatActividade();
             maskedTextBoxHora.Text = this.c.gethorActividade();
-
             linkUsuario.Enabled = us.nivelDeAcesso(this.c);
             labelUsuario.Text = this.c.user_acesso;
         }
@@ -147,7 +134,7 @@ namespace WindowsFormsApplication1
 
         private void comboBoxEstado_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(comboBoxEstado.SelectedItem.Equals("Realizada"))
+            /*if(comboBoxEstado.SelectedItem.Equals("Realizada"))
             {
                 textBox1.Enabled = true;
                 textBox2.Enabled = true;
@@ -158,7 +145,7 @@ namespace WindowsFormsApplication1
                 
                 textBox1.Enabled = false;
                 textBox2.Enabled = false;
-            }
+            }*/
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -175,8 +162,7 @@ namespace WindowsFormsApplication1
             this.c.setOrador(textBoxOrador.Text);
             this.c.setEstadoActividade(comboBoxEstado.Text);
             this.c.setLocalActividade(textBoxLocal.Text);
-            this.c.qtd_homem = Convert.ToInt32(textBox1.Text);
-            this.c.qtd_mulher = Convert.ToInt32(textBox2.Text);
+            this.c.setOBSactividade(richTextBoxObs.Text);
 
             String dataFormatada = formatarData.Value.ToString("yyyy-MM-dd");
             int ano = dateTimePicker1.Value.Year;
@@ -248,6 +234,29 @@ namespace WindowsFormsApplication1
         private void button5_Click(object sender, EventArgs e)
         {
             new form_titulo2(this.dataGridView1, actividade, null).Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            campo.setComissaoEncarregue(comboBox1.Text);
+            this.dataGridView1.DataSource = actividade.pesquisarComissao(campo);
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            campo.setMesActividade(comboBox3.Text);
+            this.dataGridView1.DataSource = actividade.pesquisarPorMes(campo);
+        }
+
+        private void comboBox2_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            campo.setEstadoActividade(comboBox2.Text);
+            this.dataGridView1.DataSource = actividade.pesqEstadoActividade(campo);
         }
     }
 }

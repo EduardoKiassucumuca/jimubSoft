@@ -79,6 +79,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.richTextBoxObs = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -91,6 +92,7 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.richTextBoxObs);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.maskedTextBoxHora);
             this.groupBox1.Controls.Add(this.label1);
@@ -132,7 +134,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label3.Location = new System.Drawing.Point(782, 214);
+            this.label3.Location = new System.Drawing.Point(782, 231);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 19);
@@ -141,7 +143,7 @@
             // 
             // maskedTextBoxHora
             // 
-            this.maskedTextBoxHora.Location = new System.Drawing.Point(786, 236);
+            this.maskedTextBoxHora.Location = new System.Drawing.Point(786, 253);
             this.maskedTextBoxHora.Mask = "00:00";
             this.maskedTextBoxHora.Name = "maskedTextBoxHora";
             this.maskedTextBoxHora.Size = new System.Drawing.Size(61, 26);
@@ -190,13 +192,14 @@
             this.comboBoxEstado.Size = new System.Drawing.Size(525, 27);
             this.comboBoxEstado.TabIndex = 59;
             this.comboBoxEstado.Text = "Estado da actividade";
+            this.comboBoxEstado.SelectedIndexChanged += new System.EventHandler(this.comboBoxEstado_SelectedIndexChanged);
             // 
             // richTextBoxObjectivo
             // 
             this.richTextBoxObjectivo.Location = new System.Drawing.Point(20, 138);
             this.richTextBoxObjectivo.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBoxObjectivo.Name = "richTextBoxObjectivo";
-            this.richTextBoxObjectivo.Size = new System.Drawing.Size(488, 148);
+            this.richTextBoxObjectivo.Size = new System.Drawing.Size(488, 84);
             this.richTextBoxObjectivo.TabIndex = 58;
             this.richTextBoxObjectivo.Text = "Objectivo...";
             // 
@@ -241,7 +244,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label2.Location = new System.Drawing.Point(532, 213);
+            this.label2.Location = new System.Drawing.Point(532, 230);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(131, 19);
@@ -250,7 +253,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(536, 236);
+            this.dateTimePicker1.Location = new System.Drawing.Point(536, 253);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(210, 26);
@@ -266,6 +269,7 @@
             this.textBoxOrador.Size = new System.Drawing.Size(525, 26);
             this.textBoxOrador.TabIndex = 49;
             this.textBoxOrador.Text = "Orador";
+            this.textBoxOrador.TextChanged += new System.EventHandler(this.textBoxOrador_TextChanged);
             // 
             // labelTp
             // 
@@ -342,7 +346,7 @@
             this.labelExito.AutoSize = true;
             this.labelExito.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelExito.ForeColor = System.Drawing.Color.ForestGreen;
-            this.labelExito.Location = new System.Drawing.Point(641, 314);
+            this.labelExito.Location = new System.Drawing.Point(645, 331);
             this.labelExito.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelExito.Name = "labelExito";
             this.labelExito.Size = new System.Drawing.Size(0, 22);
@@ -736,10 +740,9 @@
             // 
             // comboBox3
             // 
-            this.comboBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
+            "Todos",
             "Janeiro",
             "Fevereiro",
             "Março",
@@ -758,6 +761,16 @@
             this.comboBox3.Size = new System.Drawing.Size(286, 24);
             this.comboBox3.TabIndex = 110;
             this.comboBox3.Text = "Pesquisa pelo mês ";
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
+            // 
+            // richTextBoxObs
+            // 
+            this.richTextBoxObs.Location = new System.Drawing.Point(20, 236);
+            this.richTextBoxObs.Margin = new System.Windows.Forms.Padding(4);
+            this.richTextBoxObs.Name = "richTextBoxObs";
+            this.richTextBoxObs.Size = new System.Drawing.Size(488, 69);
+            this.richTextBoxObs.TabIndex = 65;
+            this.richTextBoxObs.Text = "Observação...";
             // 
             // frm_actividades
             // 
@@ -832,5 +845,6 @@
         public System.Windows.Forms.Label labelUsuario;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.RichTextBox richTextBoxObs;
     }
 }
