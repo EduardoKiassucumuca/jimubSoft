@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/meu_estilo.css'>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light menu-jimub bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">JIMUB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h3 class="titulo1">Registra-se com os dados pessoais</h3>
+    </div>
+    <br>
+    <main class="container">
+        <div class="container ficha_membro" id="dados_pessoais">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputNome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="inputNome" placeholder="Nome Completo" required>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputBairro" class="form-label">Bairro</label>
+                    <input type="text" class="form-control" id="inputBairro" placeholder="Bairro">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputRua" class="form-label">Rua</label>
+                    <input type="text" class="form-control" id="inputRua" placeholder="Rua">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputDescricao" class="form-label">Descrição/Nº da casa</label>
+                    <textarea rows="1" type="text" class="form-control" id="inputDescricao" placeholder="Descrição ou número da casa"></textarea>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputTelefonePrincipal" class="form-label">Telefone Principal</label>
+                    <input type="text" class="form-control" id="inputTelefonePrincipal" placeholder="921343322">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputTelefoneSecundario" class="form-label">Telefone Secundário</label>
+                    <input type="text" class="form-control" id="inputTelefoneSecundário" placeholder="992112343">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputGenero" class="form-label">Genero</label>
+                    <select id="inputGenero" class="form-select" required>
+                <option selected>Genero</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+              </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputDate_nascimento" class="form-label">Data de Nascimento</label>
+                    <input type="date" class="form-control" id="inputDate_nascimento">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputFacebook" class="form-label">Facebook</label>
+                    <input type="text" class="form-control" id="inputFacebook" placeholder="Facebook">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputNivel_escolar" class="form-label">Nivel_escolar</label>
+                    <select id="inputNivel_escolar" class="form-select">
+                    <option selected>Nível Escolar</option>
+                </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputAreaFormacao" class="form-label">Área de Formação</label>
+                    <input type="text" class="form-control" id="inputAreaFormacao" placeholder="Área de Formação">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputProfissao" class="form-label">Profissão</label>
+                    <input type="text" class="form-control" id="inputProfissao" placeholder="Profissão">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEscola" class="form-label">Escola</label>
+                    <input type="text" class="form-control" id="inputEscola" placeholder="Escola">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputRamo_ocupacional" class="form-label">Ramo Ocupacional</label>
+                    <select id="inputRamo_ocupacional" class="form-select">
+                    <option selected>Ramo Ocupacional</option>
+                    <option value="Saúde">Saúde</option>
+                    <option value="Religioso">Religioso</option>
+                    <option value="Funcionario">Funcionario</option>
+                    <option value="Educação">Educação</option>
+                    <option value="Militar/Policia">Militar/Policia</option>
+                    <option value="Nenhum">Nenhum</option>
+                </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEstado_civil" class="form-label">Estado Civíl</label>
+                    <select id="inputEstado_civil" class="form-select">
+                    <option selected>Estado Civíl</option>
+                    <option value="Solteiro">Solteiro</option>
+                    <option value="Casado">Casado</option>
+                    <option value="Viuvo">Viúvo</option>
+                    <option value="Divorciado">Divorciado</option>
+                </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPai" class="form-label">Nome do Pai</label>
+                    <input type="text" class="form-control" id="inputPai" placeholder="Nome do pai">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputMae" class="form-label">Nome da Mãe</label>
+                    <input type="text" class="form-control" id="inputMae" placeholder="Nome da Mãe">
+                </div>
+                <div class="col-12">
+                    <button type="button" class="btn btn-danger btn-avancar">Avançar</button>
+                </div>
+            </form>
+        </div>
+        <div class="container ficha_membro" id="dados_eclesiasticos">
+            <form class="row g-3">
+                <div class="col-md-3">
+                    <label for="inputCategoria_membro" class="form-label">Categoria de Membro</label>
+                    <select id="inputCategoria_membro" class="form-select">
+                    <option selected>Categoria de Membro</option>
+                    <option selected>Catecumeno</option>
+                    <option selected>Aprova</option>
+                    <option selected>Efectivo</option>
+                </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputGrupo" class="form-label">Gruupo</label>
+                    <select id="inputGrupo" class="form-select">
+                    <option selected>Grupo</option>
+                    <option value="Coral dos Adolescentes">Coral dos Adolescentes</option>
+                    <option value="Tudizole">Tudizole</option>
+                    <option value="Nenhum">Nenhum</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputClasse" class="form-label">Classe</label>
+                    <select id="inputClasse" class="form-select">
+                    <option selected>Classe</option>
+                    <option>Alberto Neto</option>
+                    <option>António Rocha</option>
+                    <option>Corintios</option>
+                    <option>Damasco</option>
+                    <option>Daniel</option>
+                    <option>Elias</option>
+                    <option>Isaias</option>
+                    <option>Isabel Buta</option>
+                    <option>João Baptista</option>
+                    <option>Joaquim Murimba</option>
+                    <option>Josué</option>
+                    <option>Jerusalém</option>
+                    <option>Marcela Da Silva</option>
+                    <option>Nazaré</option>
+                    <option>Peniel</option>
+                    <option>Rev. Teodoro Webba</option>
+                    <option>S.Pedro</option>
+                    <option>Sebastião Gaspar</option>
+                    <option>Nenhuma</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputComissao" class="form-label">Comissão</label>
+                    <select id="inputComissao" class="form-select">
+                    <option selected>Comissão</option>
+                    <option>Evangelismo</option>
+                    <option>C.Informação</option>
+                    <option>Fraternidade</option>
+                    <option>Rec.Desporto</option>
+                    <option>SSC</option>
+                    <option>Cultura</option>
+                    <option>Nenhuma</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputdate_ingresso" class="form-label">Data de Entrada na juventude</label>
+                    <input type="date" class="form-control" id="inputdate_ingresso">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCargo" class="form-label">Cargo</label>
+                    <select id="inputCargo" class="form-select">
+                    <option selected>Cargo</option>
+                    <option>Base</option>
+                    <option>Director</option>
+                    <option>Vice-Director</option>
+                    <option>Sec.Executivo</option>
+                    <option>Tesoureiro</option>
+                    <option>Sec.Evangelismo</option>
+                    <option>Vic.Sec.Evangelismo</option>
+                    <option>Sec.Comunicação.e.Informação</option>
+                    <option>Vic.Sec.Comunicação.e.Informação</option>
+                    <option>Sec.Fraternidade.e.Ecumenismo</option>
+                    <option>Vic.Sec.Fraternidade.e.Ecumenismo</option>
+                    <option>Sec.Recreio.e.Desporto</option>
+                    <option>Vic.Sec.Recreio.e.Desporto</option>
+                    <option>Sec.Serviços.Sociais.e.Comunitarios</option>
+                    <option>Vic.Sec.Serviços.Sociais.e.Comunitarios</option>
+                    <option>Coordenador.Dos.Adolescentes</option>
+                    <option>Vic.Coordenador.Dos.Adolescentes</option>
+                    <option>Sec.Cultura</option>
+                    <option>Vic.Sec.Cultura</option>
+                    <option>Nenhum</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputorganizacao" class="form-label">Como entrou na organização</label>
+                    <select id="inputorganizacao" class="form-select">
+                        <option selected>Entrada na organização</option>
+                        <option>Evangelizado</option>
+                        <option>Voluntariamente</option>
+                        <option>Convite</option>
+                        <option>Vindo da Classe Infantil</option>
+                        <option>Outro</option>
+              </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputfrequencia" class="form-label">Assíduidade nas actividades</label>
+                    <select id="inputfrequencia" class="form-select">
+                <option selected>Assíduidade</option>
+                <option>Presente</option>
+                <option>Regular</option>
+                <option>Irregular</option>
+                <option>Ausente</option>
+                <option>Desaparecido</option>
+                <option>Afastou-se</option>
+              </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputMotivo" class="form-label">Motivo da Ausência</label>
+                    <select id="inputMotivo" class="form-select">
+                        <option selected>Motivo da Ausência</option>
+                        <option>Trabalho</option>
+                        <option>Estudo</option>
+                        <option>Saúde</option>
+                        <option>Disciplinares</option>
+                        <option>Preguiça</option>
+                        <option>Falta de Interesse</option>
+                        <option>Desconhecido</option>
+                        <option>Nenhum</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputIgreja_Anterior" class="form-label">Igreja Anterior</label>
+                    <input type="text" class="form-control" id="inputIgreja_Anterior" placeholder="Igreja Anterior">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputExercer_funcao" class="form-label">Deseja exercer alguuma função na igreja?qual?</label>
+                    <textarea rows="2" type="text" class="form-control" id="inputExercer_funcao" placeholder="Deseja exercer alguuma função na igreja?qual?"></textarea>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputachas_organizacao" class="form-label">O que achas da organização?</label>
+                    <textarea rows="2" type="text" class="form-control" id="inputAchas_organizacao" placeholder="O que achas da organização?"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="button" class="btn btn-danger btn-guardar" data-bs-toggle="modal" data-bs-target="#myModalInfo">Guardar</button>
+                    <button type="button" class="btn btn-default btn-voltar">Voltar</button>
+                </div>
+            </form>
+        </div>
+        <div class="modal fade" id="myModalInfo">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Info</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Os dados foram guardados com sucesso!
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info btn-ok" data-bs-dismiss="modal">OK</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
