@@ -43,7 +43,7 @@
     $telefone_secundario = $_POST['meu_telefone2'];
     $genero = $_POST['meu_genero'];
     $data_nascimento = $_POST['minha_dataNascimento'];
-    $year_nascimento = intval(substr($data_nascimento, 6));
+    $year_nascimento = intval(substr($data_nascimento, 0,4));
     $year_now = intval(date("Y"));
     $idade = $year_now - $year_nascimento;
     $facebook = $_POST['meu_facebook'];
@@ -63,8 +63,9 @@
     $igreja_anterior = $_POST['minha_igrejaAnterior'];
     $minha_funcaoAExercer = $_POST['funcao_a_exercer'];
     $achas_organizacao = $_POST['oq_achas_organizacao'];
-
-    $sql_membro = "Insert into tb_membros(nome,alcunha,telefone1,telefone2,idade,sexo,id_morada,estado_civil,id_filiacao,facebook,areaFormacao,nivelEscolar,escola,ramo,profissao,id_cargo,id_comissao,grupo,data_nascimento,cat_membro,classe,data_emissao,como_ingressou,presenca,motivo,igreja_Anterior,funcaoA_Exercer,descricao_Organizacao,estado)Values('$nome','$alcunha','$telefone_principal','$telefone_secundario','$idade','$genero','$last_id_morada','$estado_civil','$last_id_filiacao','$facebook','$area_formacao','$nivel_escolar','$escola','$ramo_ocupacional','$profissao','$last_id_cargo','$last_id_comissao','$grupo','$data_nascimento','$cat_membro','$classe','$data_ingresso','$como_entrou_na_organizacao','$frequencia','$motivo','$igreja_anterior','$minha_funcaoAExercer','$achas_organizacao','$estado')";
+    $estado = "Vivo";
+    $status = 1;
+    $sql_membro = "Insert into tb_membros(nome,alcunha,telefone1,telefone2,idade,sexo,id_morada,estado_civil,id_filiacao,facebook,areaFormacao,nivelEscolar,escola,ramo,profissao,id_cargo,id_comissao,grupo,data_nascimento,cat_membro,classe,data_emissao,como_ingressou,presenca,motivo,igreja_Anterior,funcaoA_Exercer,descricao_Organizacao,estado,status)Values('$nome','$alcunha','$telefone_principal','$telefone_secundario','$idade','$genero','$last_id_morada','$estado_civil','$last_id_filiacao','$facebook','$area_formacao','$nivel_escolar','$escola','$ramo_ocupacional','$profissao','$last_id_cargo','$last_id_comissao','$grupo','$data_nascimento','$cat_membro','$classe','$data_ingresso','$como_entrou_na_organizacao','$frequencia','$motivo','$igreja_anterior','$minha_funcaoAExercer','$achas_organizacao','$estado','$status')";
     $result_membro = mysqli_query($conexao, $sql_membro);
     $last_id_membro = mysqli_insert_id($conexao);
    
