@@ -7,7 +7,9 @@
     <title>Registro</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/font-awesome.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/meu_estilo.css'>
+
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -26,57 +28,60 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light menu-jimub bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light menu-jimub bg-warning">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">JIMUB</a>
+            <strong><a class="navbar-brand" href="#">JIMUB</a></strong>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
+                    <li class="nav-item nav-item-jimub">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item nav-item-jimub">
+                        <a class="nav-link" href="#">Alterar seus dados</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                <form class="d-flex form-login" name="login-jimub">
+                    <input type="text" name="username" class="form-control me-2 form-login-dashboard" id="inputUsername" placeholder="Username" required/>
+                    <input type="password" name="senha" class="form-control me-2 form-login-dashboard" id="inputSenha" placeholder="Senha" required/>
+                    <button class="btn btn-dark btn-dark-entrar" type="submit">Entrar</button>
                 </form>
             </div>
         </div>
     </nav>
-    <div class="container">
-        <h3 class="titulo1">Registra-se com os dados pessoais</h3>
-    </div>
-    <br>
     <main class="container">
-        <div class="container ficha_membro" id="dados_pessoais">
+        <br>
+        <div class="alert alert-warning" role="alert">
+            <h4 class="alert-heading">Bem-Vindo | Registra-se com os seus dados pessoais </h4>
+            <hr>
+            <p class="mb-0">Se és membro da organização e ainda não fizeste o registro, o momento é agora não espere mais!</p>
+        </div>
+        <div class="ficha_membro" id="dados_pessoais">
             <form class="row g-3">
                 <div class="col-md-6">
-                    <label for="inputNome" class="form-label">Nome</label>
+                    <label for="inputNome" class="form-label form-label-membro">Nome</label>
                     <input type="text" class="form-control" id="inputNome" placeholder="Nome Completo" required>
                 </div>
                 <div class="col-md-3">
-                    <label for="inputBairro" class="form-label">Bairro</label>
+                    <label for="inputBairro" class="form-label form-label-membro">Bairro</label>
                     <input type="text" class="form-control" id="inputBairro" placeholder="Bairro">
                 </div>
                 <div class="col-md-3">
-                    <label for="inputRua" class="form-label">Rua</label>
+                    <label for="inputRua" class="form-label form-label-membro">Rua</label>
                     <input type="text" class="form-control" id="inputRua" placeholder="Rua">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputDescricao" class="form-label">Descrição/Nº da casa</label>
+                    <label for="inputDescricao" class="form-label form-label-membro">Descrição/Nº da casa</label>
                     <textarea rows="1" type="text" class="form-control" id="inputDescricao" placeholder="Descrição ou número da casa"></textarea>
                 </div>
                 <div class="col-md-3">
-                    <label for="inputTelefonePrincipal" class="form-label">Telefone Principal</label>
+                    <label for="inputTelefonePrincipal" class="form-label form-label-membro">Telefone Principal</label>
                     <input type="text" class="form-control" id="inputTelefonePrincipal" placeholder="921343322">
                 </div>
                 <div class="col-md-3">
-                    <label for="inputTelefoneSecundario" class="form-label">Telefone Secundário</label>
+                    <label for="inputTelefoneSecundario" class="form-label form-label-membro">Telefone Secundário</label>
                     <input type="text" class="form-control" id="inputTelefoneSecundário" placeholder="992112343">
                 </div>
                 <div class="col-md-3">
@@ -88,33 +93,52 @@
               </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="inputDate_nascimento" class="form-label">Data de Nascimento</label>
+                    <label for="inputDate_nascimento" class="form-label form-label-membro">Data de Nascimento</label>
                     <input type="date" class="form-control" id="inputDate_nascimento">
                 </div>
                 <div class="col-md-3">
-                    <label for="inputFacebook" class="form-label">Facebook</label>
+                    <label for="inputFacebook" class="form-label form-label-membro">Facebook</label>
                     <input type="text" class="form-control" id="inputFacebook" placeholder="Facebook">
                 </div>
                 <div class="col-md-3">
-                    <label for="inputNivel_escolar" class="form-label">Nivel_escolar</label>
+                    <label for="inputNivel_escolar" class="form-label form-label-membro">Nivel_escolar</label>
                     <select id="inputNivel_escolar" class="form-select">
                     <option selected>Nível Escolar</option>
+                    <option value="Ensino Primário">1ª Classe</option>
+                    <option value="Ensino Primário">2ª Classe</option>
+                    <option value="Ensino Primário">3ª Classe</option>
+                    <option value="Ensino Primário">4ª Classe</option>
+                    <option value="Ensino Primário">5ª Classe</option>
+                    <option value="Ensino Primário">6ª Classe</option>
+                    <option value="Ensino Secundário">7ª Classe</option>
+                    <option value="Ensino Secundário">8ª Classe</option>
+                    <option value="Ensino Secundário">9ª Classe</option>
+                    <option value="Ensino Médio">10ª Classe</option>
+                    <option value="Ensino Médio">11ª Classe</option>
+                    <option value="Ensino Médio">12ª Classe</option>    
+                    <option value="Ensino Médio">13ª Classe</option>
+                    <option value="Ensino Superior">1ª Ano</option>
+                    <option value="Ensino Superior">2ª Ano</option> 
+                    <option value="Ensino Superior">3ª Ano</option>
+                    <option value="Ensino Superior">4ª Ano</option>
+                    <option value="Ensino Superior">5ª Ano</option>
+                    <option value="Licenciatura">Licenciado(a)</option>
                 </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="inputAreaFormacao" class="form-label">Área de Formação</label>
+                    <label for="inputAreaFormacao" class="form-label form-label-membro">Área de Formação</label>
                     <input type="text" class="form-control" id="inputAreaFormacao" placeholder="Área de Formação">
                 </div>
                 <div class="col-md-3">
-                    <label for="inputProfissao" class="form-label">Profissão</label>
+                    <label for="inputProfissao" class="form-label form-label-membro">Profissão</label>
                     <input type="text" class="form-control" id="inputProfissao" placeholder="Profissão">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputEscola" class="form-label">Escola</label>
+                    <label for="inputEscola" class="form-label form-label-membro">Escola</label>
                     <input type="text" class="form-control" id="inputEscola" placeholder="Escola">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputRamo_ocupacional" class="form-label">Ramo Ocupacional</label>
+                    <label for="inputRamo_ocupacional" class="form-label form-label-membro">Ramo Ocupacional</label>
                     <select id="inputRamo_ocupacional" class="form-select">
                     <option selected>Ramo Ocupacional</option>
                     <option value="Saúde">Saúde</option>
@@ -126,7 +150,7 @@
                 </select>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputEstado_civil" class="form-label">Estado Civíl</label>
+                    <label for="inputEstado_civil" class="form-label form-label-membro">Estado Civíl</label>
                     <select id="inputEstado_civil" class="form-select">
                     <option selected>Estado Civíl</option>
                     <option value="Solteiro">Solteiro</option>
@@ -136,31 +160,31 @@
                 </select>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputPai" class="form-label">Nome do Pai</label>
+                    <label for="inputPai" class="form-label form-label-membro">Nome do Pai</label>
                     <input type="text" class="form-control" id="inputPai" placeholder="Nome do pai">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputMae" class="form-label">Nome da Mãe</label>
+                    <label for="inputMae" class="form-label form-label-membro">Nome da Mãe</label>
                     <input type="text" class="form-control" id="inputMae" placeholder="Nome da Mãe">
                 </div>
                 <div class="col-12">
-                    <button type="button" class="btn btn-danger btn-avancar">Avançar</button>
+                    <button type="button" class="btn btn-warning btn-avancar">Avançar</button>
                 </div>
             </form>
         </div>
         <div class="container ficha_membro" id="dados_eclesiasticos">
             <form class="row g-3">
                 <div class="col-md-3">
-                    <label for="inputCategoria_membro" class="form-label">Categoria de Membro</label>
+                    <label for="inputCategoria_membro" class="form-label form-label-membro">Categoria de Membro</label>
                     <select id="inputCategoria_membro" class="form-select">
                     <option selected>Categoria de Membro</option>
-                    <option selected>Catecumeno</option>
-                    <option selected>Aprova</option>
-                    <option selected>Efectivo</option>
+                    <option>Catecumeno</option>
+                    <option>Aprova</option>
+                    <option>Efectivo</option>
                 </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="inputGrupo" class="form-label">Gruupo</label>
+                    <label for="inputGrupo" class="form-label form-label-membro">Gruupo</label>
                     <select id="inputGrupo" class="form-select">
                     <option selected>Grupo</option>
                     <option value="Coral dos Adolescentes">Coral dos Adolescentes</option>
@@ -169,7 +193,7 @@
                     </select>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputClasse" class="form-label">Classe</label>
+                    <label for="inputClasse" class="form-label form-label-membro">Classe</label>
                     <select id="inputClasse" class="form-select">
                     <option selected>Classe</option>
                     <option>Alberto Neto</option>
@@ -194,7 +218,7 @@
                     </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="inputComissao" class="form-label">Comissão</label>
+                    <label for="inputComissao" class="form-label form-label-membro">Comissão</label>
                     <select id="inputComissao" class="form-select">
                     <option selected>Comissão</option>
                     <option>Evangelismo</option>
@@ -206,12 +230,8 @@
                     <option>Nenhuma</option>
                     </select>
                 </div>
-                <div class="col-md-3">
-                    <label for="inputdate_ingresso" class="form-label">Data de Entrada na juventude</label>
-                    <input type="date" class="form-control" id="inputdate_ingresso">
-                </div>
-                <div class="col-md-6">
-                    <label for="inputCargo" class="form-label">Cargo</label>
+                <div class="col-md-5">
+                    <label for="inputCargo" class="form-label form-label-membro">Cargo</label>
                     <select id="inputCargo" class="form-select">
                     <option selected>Cargo</option>
                     <option>Base</option>
@@ -236,6 +256,11 @@
                     <option>Nenhum</option>
                     </select>
                 </div>
+                <div class="col-md-4">
+                    <label for="inputdate_ingresso" class="form-label form-label-membro">Data de Entrada na juventude</label>
+                    <input type="date" class="form-control" id="inputdate_ingresso">
+                </div>
+
                 <div class="col-md-3">
                     <label for="inputorganizacao" class="form-label">Como entrou na organização</label>
                     <select id="inputorganizacao" class="form-select">
@@ -248,7 +273,7 @@
               </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="inputfrequencia" class="form-label">Assíduidade nas actividades</label>
+                    <label for="inputfrequencia" class="form-label form-label-membro">Assíduidade nas actividades</label>
                     <select id="inputfrequencia" class="form-select">
                 <option selected>Assíduidade</option>
                 <option>Presente</option>
@@ -260,7 +285,7 @@
               </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="inputMotivo" class="form-label">Motivo da Ausência</label>
+                    <label for="inputMotivo" class="form-label form-label-membro">Motivo da Ausência</label>
                     <select id="inputMotivo" class="form-select">
                         <option selected>Motivo da Ausência</option>
                         <option>Trabalho</option>
@@ -274,31 +299,30 @@
                     </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="inputIgreja_Anterior" class="form-label">Igreja Anterior</label>
+                    <label for="inputIgreja_Anterior" class="form-label form-label-membro">Igreja Anterior</label>
                     <input type="text" class="form-control" id="inputIgreja_Anterior" placeholder="Igreja Anterior">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputExercer_funcao" class="form-label">Deseja exercer alguuma função na igreja?qual?</label>
+                    <label for="inputExercer_funcao" class="form-label form-label-membro">Deseja exercer alguuma função na igreja?qual?</label>
                     <textarea rows="2" type="text" class="form-control" id="inputExercer_funcao" placeholder="Deseja exercer alguuma função na igreja?qual?"></textarea>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputachas_organizacao" class="form-label">O que achas da organização?</label>
+                    <label for="inputachas_organizacao" class="form-label form-label-membro">O que achas da organização?</label>
                     <textarea rows="2" type="text" class="form-control" id="inputAchas_organizacao" placeholder="O que achas da organização?"></textarea>
                 </div>
                 <div class="col-12">
-                    <button type="button" class="btn btn-danger btn-guardar" data-bs-toggle="modal" data-bs-target="#myModalInfo">Guardar</button>
-                    <button type="button" class="btn btn-default btn-voltar">Voltar</button>
+                    <button type="button" class="btn btn-warning btn-guardar" data-bs-toggle="modal" data-bs-target="#myModalInfo">Guardar</button>
+                    <button type="button" class="btn btn-outline-warning btn-voltar"><i class="fa fa-arrow-left"></i> Voltar</button>
                 </div>
             </form>
         </div>
         <div class="modal fade" id="myModalInfo">
-            <div class="modal-dialog">
+            <div class="modal-dialog alert-warning">
                 <div class="modal-content">
 
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title">Info</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <h3 class="modal-title">Sucesso!</h3>
                     </div>
 
                     <!-- Modal body -->
@@ -308,9 +332,8 @@
 
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-info btn-ok" data-bs-dismiss="modal">OK</a>
+                        <button type="button" class="btn btn-warning btn-ok" data-bs-dismiss="modal">OK</a>
                     </div>
-
                 </div>
             </div>
         </div>

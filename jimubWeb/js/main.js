@@ -35,7 +35,7 @@ $(document).ready(function() {
         var nome_pai = $("#inputPai").val();
         var nome_mae = $("#inputMae").val();
 
-        if (nome == "" && bairro == "" && rua == "" && descricao == "" && telefone_principal == "" && telefone_secundario == "" && genero == "Genero" && data_nascimento == "" && facebook == "" && nivel_escolar == "Nível Escolar" && area_formacao == "" && profissao == "" && escola == "" && ramo_ocupacional == "Ramo Ocupacional" && estado_civil == "Estado Civíl" && nome_mae == "" && nome_pai == "") {
+        /*if (nome == "" && bairro == "" && rua == "" && descricao == "" && telefone_principal == "" && telefone_secundario == "" && genero == "Genero" && data_nascimento == "" && facebook == "" && nivel_escolar == "Nível Escolar" && area_formacao == "" && profissao == "" && escola == "" && ramo_ocupacional == "Ramo Ocupacional" && estado_civil == "Estado Civíl" && nome_mae == "" && nome_pai == "") {
             $(".text_validacao").text("Campo Obrigatório");
             $(".text_validacao").show();
         } else if (nome == "") {
@@ -89,10 +89,10 @@ $(document).ready(function() {
         } else if (nome_mae == "") {
             $("#text_valida_18").text("Preencha o nome da mãe");
             $("#text_valida_18").show();
-        } else {
-            $("#dados_pessoais").hide(1000);
-            $("#dados_eclesiasticos").show(2000);
-        }
+        } else {*/
+        $("#dados_pessoais").hide(1000);
+        $("#dados_eclesiasticos").show(2000);
+
     });
     $(".btn-voltar").click(function() {
         $("#dados_eclesiasticos").hide(1000);
